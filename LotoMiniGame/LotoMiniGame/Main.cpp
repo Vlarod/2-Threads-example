@@ -110,8 +110,9 @@ int readDataFromTxt(std::string fileName) {
 	}
 	catch (std::exception& e) {
 		std::cout << "Open file ERROR" << std::endl;
+		return 0;
 	}
-	return false;
+	return 0;
 }
 
 bool checkHighScore(int score) {
