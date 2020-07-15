@@ -96,7 +96,7 @@ bool writeDataToTxt(std::string fileName, int score) {
 	catch (std::exception& e) {
 		std::cout << "Open file ERROR" << std::endl;
 	}
-	return false;
+	return 0;
 }
 
 int readDataFromTxt(std::string fileName) {
